@@ -8,7 +8,7 @@ public abstract class HouseBuilder {
     public abstract void buildWalls();
     public abstract void buildRoof();
 
-    //建造好放在，将产品（房子）返回
+    //建造好，将产品（房子）返回
     public House builderHouse(){
         return house;
     }
